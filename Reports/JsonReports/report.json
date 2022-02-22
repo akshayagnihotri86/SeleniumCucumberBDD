@@ -1,0 +1,104 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-22T05:52:56.178Z",
+        "before": [
+          {
+            "result": {
+              "duration": 71263000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.LoginStepsPF.browserSetup()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "user is able to login with correct credentials",
+        "description": "",
+        "id": "to-test-the-login-functionality-of-the-application;user-is-able-to-login-with-correct-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4365000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.LoginStepsPF.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21784000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user is on the login page",
+            "match": {
+              "location": "StepDefinitions.LoginStepsPF.user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 15745000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters jojo and bean",
+            "match": {
+              "arguments": [
+                {
+                  "val": "jojo",
+                  "offset": 12
+                },
+                {
+                  "val": "bean",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinitions.LoginStepsPF.user_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7330000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicks on sign in button",
+            "match": {
+              "location": "StepDefinitions.LoginStepsPF.clicks_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2975000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user is navigated to home page",
+            "match": {
+              "location": "StepDefinitions.LoginStepsPF.user_is_navigated_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test the login functionality of the application",
+    "description": "",
+    "id": "to-test-the-login-functionality-of-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/login.feature",
+    "tags": []
+  }
+]
